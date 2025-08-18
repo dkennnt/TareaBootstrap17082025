@@ -1,0 +1,116 @@
+:root, [data-bs-theme=light] {
+    --bs-primary: #6a1b9a;
+    --bs-secondary: #ffea00;
+    --bs-success: #39ff14;   
+    --bs-info: #00e5ff;      
+    --bs-warning: #ffff00;
+    --bs-danger: #ff5722; 
+    --bs-light: #ffffff;
+    --bs-dark: #111111; 
+    --bs-primary-rgb: 106, 27, 154;
+    --bs-secondary-rgb: 255, 234, 0;
+    --bs-success-rgb: 57, 255, 20;
+    --bs-info-rgb: 0, 229, 255;
+    --bs-warning-rgb: 255, 255, 0;
+    --bs-danger-rgb: 255, 87, 34;
+    --bs-light-rgb: 255, 255, 255;
+    --bs-dark-rgb: 17, 17, 17;
+}
+  
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 95%;
+    background-color: black; 
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+body h1 {
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+body h2 {
+    font-size: 24px;
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+
+body h3, body h4 {
+    text-align: center;
+}
+
+.Header {
+    padding: 20px;
+    border-bottom: solid red 5px;
+}
+
+.Definition{
+    border:solid black 3px;
+}
+
+.Referencias{
+    border:solid cyan 3px;
+}
+
+.ProfesionalMe{
+    border:solid red 3px;
+}
+
+.PurposefulMe{
+    border:solid yellow 3px;
+}
+
+.images {
+    border:solid pink 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.elPequeñoGigante{
+    border:solid orange 2px;
+}
+
+
+.Atributos {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th{
+    color:black;
+    border: solid 2px black;
+}
+
+td{
+    color:black;
+    border: solid 1px black;
+}
+
+td a{
+    color:blue
+}
+
+.footer {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: cyan;
+    font-weight: bold;
+}

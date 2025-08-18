@@ -1,0 +1,64 @@
+/* Tipografía y espaciado */
+body {
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    font-weight: 700;
+    color: #ffcc00;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+/* Imágenes */
+img {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 1.2rem;
+}
+
+/* Bloques de cita */
+blockquote {
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 5px solid #ffcc00;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+
+/* Links */
+a {
+    color: #ffcc00;
+}
+
+a:hover {
+    color: #ffd633;
+    text-decoration: underline;
+}
+
+/* Responsividad adicional si se requiere */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
